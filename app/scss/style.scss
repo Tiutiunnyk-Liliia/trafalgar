@@ -1,13 +1,80 @@
 @import "vars";
 @import "libs";
+@import "global";
 @import "fonts";
 
 
+.header{
+  background-image: url(../img/header-element.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 0 160px;
+  margin-bottom: 190px;
+}
+
+.header__top{
+  padding-top: 56px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu{
+  width: 100%;
+  max-width: 545px;
+}
+
+.menu-list{
+  font-family: "Muli-Regular";
+  display: flex;
+  justify-content: space-between;
+  a{
+    font-size: 18px;
+    line-height: 23px;
+    color: #1F1534;
+    opacity: 0.5;
+    &.active{
+      opacity: 1;
+      font-family: "Muli-Bold";
+    }
+  }
+}
+
+.header__inner{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__info{
+  padding-top: 106px;
+  width: 100%;
+  max-width: 445px;
+}
+
+.header__title{
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 25px;
+}
+
+.header__text{
+  font-size: 21px;
+  line-height: 32px;
+  margin-bottom: 45px;
+}
+
+.btn.header__btn{
+ color: #fff;
+  background-color: #458FF6;
+}
+
+.header__img{
+  margin-right: -26px;
+}
+
+
+
+
+
 @import "media";
-
-
-
-
-
-//@import "../../node_modules/slick-carousel/slick/slick";
-//@import "../../node_modules/magnific-popup/dist/magnific-popup";
