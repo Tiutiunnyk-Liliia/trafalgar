@@ -136,7 +136,14 @@
   text-align: left;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
+}
+
+.services__item-img{
+  height: 95px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
 }
 
 .services__item-title{
@@ -152,6 +159,8 @@
 .services__btn{
   margin-top: 69px;
 }
+
+
 
 
 
