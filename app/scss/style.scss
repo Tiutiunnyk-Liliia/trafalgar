@@ -246,6 +246,20 @@
   margin-bottom: 40px;
 }
 
+.apps__btn{
+  position: relative;
+  &::before{
+    content: "";
+    width: 10px;
+    height: 15px;
+    background-image: url(../img/apps-arrow-down.png);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 35px;
+  }
+}
+
 .apps__img{
   margin-right: -26px;
 }
