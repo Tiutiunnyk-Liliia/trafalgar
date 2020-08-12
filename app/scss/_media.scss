@@ -2,6 +2,10 @@
   .container{
     max-width: 1100px;
   }
+
+  .articles__item + .articles__item{
+    margin-left: 34px;
+  }
 }
 
 
@@ -92,6 +96,15 @@
     max-width: 380px;
   }
 
+  .articles__inner{
+    padding: 0;
+  }
+
+
+  .articles__item-img img{
+    width: 100%;
+  }
+
 }
 
 
@@ -127,6 +140,23 @@
 
   .apps{
     margin-bottom: 150px;
+  }
+
+  .articles{
+    background-image: none;
+  }
+
+  .articles__items{
+    display: block;
+    margin-bottom: 30px;
+    &::before{
+      display: none;
+    }
+  }
+
+  .articles__item{
+    max-width: 90%;
+    margin: 0 auto 50px;
   }
 }
 
@@ -305,7 +335,7 @@
     background-image: none;
   }
 
-  .providers__title, .apps__title{
+  .providers__title, .apps__title, .articles__title{
     font-size: 30px;
     line-height: 42px;
   }
