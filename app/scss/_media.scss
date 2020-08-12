@@ -1,5 +1,5 @@
 @media (max-width: 1400px) {
-  .header .container{
+  .container{
     max-width: 1100px;
   }
 }
@@ -9,10 +9,6 @@
   .header{
     background-size: 70px;
     background-position: 0 135px;
-  }
-
-  .header .container{
-    max-width: 900px;
   }
 
   .container{
@@ -30,6 +26,37 @@
       width: 100%;
     }
   }
+
+  .providers{
+    margin-bottom: 170px;
+    align-items: center;
+  }
+
+  .providers-img{
+    width: 50%;
+    img{
+      width: 100%;
+    }
+  }
+
+  .apps{
+    align-items: center;
+  }
+
+  .apps__img{
+    width: 50%;
+    img{
+      width: 100%;
+    }
+  }
+
+  .providers__info{
+    margin-left: 50px;
+  }
+
+  .apps__info{
+    margin-left: 0;
+  }
 }
 
 
@@ -38,7 +65,7 @@
     background-image: none;
   }
 
-  .header .container{
+  .container{
     max-width: 770px;
   }
 
@@ -51,12 +78,20 @@
     font-size: 42px;
   }
 
-  .container{
-    max-width: 770px;
+  .services{
+    margin-bottom: 100px;
   }
 
   .services__items{
     padding: 0;
+  }
+
+  .providers{
+    margin-bottom: 90px;
+  }
+
+  .apps{
+    margin-bottom: 150px;
   }
 }
 
@@ -130,7 +165,7 @@
 
 
 @media (max-width: 850px){
-  .header .container{
+  .container{
     max-width: 650px;
   }
 
@@ -147,20 +182,37 @@
     margin-right: -8px;
   }
 
-  .container{
-    max-width: 650px;
-  }
-
   .services__item{
     width: 270px;
     padding: 30px;
   }
+
+  .providers{
+    flex-direction: column;
+  }
+
+  .apps{
+    flex-direction: column-reverse;
+  }
+
+  .providers-img {
+    width: 80%;
+  }
+
+  .apps__img{
+    width: 80%;
+  }
+
+  .providers__info{
+    margin-left: 0;
+  }
+
 }
 
 
 @media (max-width: 750px){
 
-  .header .container{
+  .container{
     max-width: 570px;
   }
 
@@ -180,15 +232,12 @@
    margin-bottom: 25px;
  }
 
-  .container{
-    max-width: 570px;
-  }
 }
 
 
 @media (max-width: 600px){
 
-  .header .container{
+  .container{
     max-width: 450px;
   }
 
@@ -205,10 +254,6 @@
     display: none;
   }
 
-  .container{
-    max-width: 450px;
-  }
-
   .services__items{
     justify-content: center;
   }
@@ -216,11 +261,20 @@
   .services__item{
     width: 70%;
   }
+
+  .about{
+    background-image: none;
+  }
+
+  .providers__title, .apps__title{
+    font-size: 30px;
+    line-height: 42px;
+  }
 }
 
 
 @media (max-width: 500px){
-  .header .container{
+  .container{
     max-width: 380px;
   }
 }
@@ -228,10 +282,6 @@
 
 
 @media (max-width: 400px){
-  .header .container{
-    max-width: 330px;
-  }
-
   .container{
     max-width: 330px;
   }
@@ -243,16 +293,12 @@
 
 
 @media (max-width: 350px){
-  .header .container{
+  .container{
     max-width: 280px;
   }
 
   .header__title{
     font-size: 32px;
-  }
-
-  .container{
-    max-width: 280px;
   }
 }
 
