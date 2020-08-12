@@ -105,6 +105,10 @@
     width: 100%;
   }
 
+  .footer__box{
+    max-width: 300px;
+  }
+
 }
 
 
@@ -157,6 +161,15 @@
   .articles__item{
     max-width: 90%;
     margin: 0 auto 50px;
+  }
+
+  .footer__inner{
+    flex-direction: column
+  }
+
+  .footer__box{
+    max-width: 100%;
+    margin-bottom: 50px;
   }
 }
 
@@ -360,6 +373,18 @@
 
   .slider__item-people-img{
     margin-right: 29px;
+  }
+
+  .footer__menu-box{
+    flex-direction: column;
+  }
+
+  .footer__menu-items{
+     display: none;
+   }
+
+  .footer__menu-column.active .footer__menu-items{
+    display: block;
   }
 }
 

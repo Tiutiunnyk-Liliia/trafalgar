@@ -11,4 +11,12 @@ $(function () {
         $('.header__menu-btn').toggleClass('active')
 
     });
+
+    $('.footer__menu-column').on('click', function () {
+        $('.footer__menu-column').removeClass('active')
+    });
+
+    $('.footer__menu-column').on('click', function () {
+        $(this).toggleClass('active')
+    });
 });
