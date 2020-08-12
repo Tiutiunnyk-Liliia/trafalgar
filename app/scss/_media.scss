@@ -57,6 +57,41 @@
   .apps__info{
     margin-left: 0;
   }
+
+  .slider__item{
+    padding: 64px 50px 79px;
+  }
+
+  .slider__item-people{
+    display: block;
+    margin-right: 29px;
+  }
+
+  .slider__item-inner{
+    align-content: center;
+    align-items: center;
+  }
+
+  .slider__item-people-info{
+    max-width: 206px;
+    text-align: center;
+  }
+
+
+  .slider__item-people-img{
+    margin-right: 0;
+  }
+
+  .slider__item-people-name{
+    line-height: 37px;
+  }
+
+  .slider__item-text{
+    font-size: 22px;
+    line-height: 35px;
+    max-width: 380px;
+  }
+
 }
 
 
@@ -207,6 +242,10 @@
     margin-left: 0;
   }
 
+  .slider{
+    padding: 15px 0 62px 0;
+  }
+
 }
 
 
@@ -270,12 +309,42 @@
     font-size: 30px;
     line-height: 42px;
   }
+
+  .slider::after{
+    display: none;
+  }
+
+  .slider__item{
+    padding: 64px 25px 79px;
+  }
+
+  .slider__item-inner{
+    display: block;
+    text-align: center;
+  }
+
+  .slider__item-people{
+    display: flex;
+    margin-bottom: 30px;
+  }
+
+  .slider__item-people-img{
+    margin-right: 29px;
+  }
 }
 
 
 @media (max-width: 500px){
   .container{
     max-width: 380px;
+  }
+
+  .slider .slider-arrows-left{
+    left: calc(50% - 110px);
+  }
+
+  .slider .slider-arrows-right{
+    left: calc(50% + 110px);
   }
 }
 
@@ -288,6 +357,10 @@
 
   .services__item{
     width: 90%;
+  }
+
+  .slider__item-people-img{
+    margin-right: 5px;
   }
 }
 
